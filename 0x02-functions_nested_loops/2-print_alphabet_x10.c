@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - 'check the code for Holberton School students'
+ * print_alphabet_x10 - 'prints the alphabet 10 times'
  *
  * Return: Always 0 (Success)
  */
-int print_alphabet_x10(void)
+void print_alphabet_x10(void)
 
 {
 
@@ -16,8 +16,8 @@ int print_alphabet_x10(void)
 	{
 		for (j = 97; j <= 122; j++)
 		{
-			-putchar(j);
+			_putchar(j);
 		}
-		_putchur('\n');
+		_putchar('\n');
 	}
 }
