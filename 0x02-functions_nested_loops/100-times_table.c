@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * print_times_table - Entry point
- * @n: input
- * Return: Always 0 (Success)
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-void print_times_table(int n)
+int main(void)
 {
-	return ();
+	print_times_table(2);
+	return (0);
 }
