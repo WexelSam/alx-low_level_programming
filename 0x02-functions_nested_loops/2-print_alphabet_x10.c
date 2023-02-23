@@ -1,23 +1,26 @@
 #include "main.h"
- /** 
- * main - Entry point
- * 
- * Description: 'print_alphabet_x10 - prints the alphabet 10 times. 
- * 
- * Return: Always 0 (Success)
+
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-void print_alphabet_x10(void)
+int main(void);
+
+{
+	print_alphabet_x10();
+	return (0);
+}
 {
 	int i;
 	int j;
 
-	for (j=i;i<= 10;i++)
+	for (j = i; i <= 10; i++)
 	{
 		for (j = 97; j <= 122; j++)
 		{
-			-putchar (j);
+			-putchar(j);
 		}
-		_putchur('\n')
+		_putchur('\n');
 	}
 }
-
