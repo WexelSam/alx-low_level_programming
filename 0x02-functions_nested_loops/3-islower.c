@@ -1,22 +1,22 @@
-#include “main.h”
+#include "main.h"
 /**
-  * _islowe - Shows 1 if the input is a
-  * lowercase character. Anather cases, shows
-  * 0
-  *
-  * @c: The character in ASCCI code
-  *
-  * Return : 1 for lowercase character. 0 for the rest.
-  */
-int _islower(int c)
+ * print_alphabet_x10 - a function that prints 10 times the alphabet
+ *
+ * Return: x10 a-z
+ */
+void print_alphabet_x10(void)
 {
-	if (c >= 97 && c <= 122)
+	int n, co;
+
+	co = 0;
+
+	while (co < 10)
 	{
-		return (1);
+		for (n = 'a'; n <= 'z'; n++)
+		{
+			_putchar(n);
+		}
+		co++;
+		_putchar('\n');
 	}
-	else
-	{
-		return (0);
-	}
-	_putchar('\n');
 }
