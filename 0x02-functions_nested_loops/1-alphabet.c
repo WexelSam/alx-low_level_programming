@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-  * print _alphabet - Prints the alphabet in lowercase
+  * print_alphabet - 'print all alphanet in lowercase'
   *
-  * Return; Always 0 (Success)
+  * Return: Always 0 (Success)
   */
+
 void print_alphabet(void)
 {
 	int i;
@@ -12,5 +13,6 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
+
 	_putchar('\n');
 }
