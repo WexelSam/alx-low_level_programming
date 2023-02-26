@@ -7,10 +7,13 @@
  */
 int main(void)
 {
-	int a;
+	int i = 48;
 
-	for (a = 0; a < 10; a++)
-		printf("%i", a);
-	printf("\n");
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
 	return (0);
 }
